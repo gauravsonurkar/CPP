@@ -1,0 +1,140 @@
+//Febonacci series inn cpp
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n1 = 0, n2 = 1, n3, number;
+//     cin >>number ;
+//     cout<<n1<<" "<<n2<<" ";
+
+//     for(int i = 0; i< number; i++)
+//     {
+//         n3 = n1 + n2;
+//         cout<<n3<<" ";
+//         n1 = n2;
+//         n2 = n3;
+//     }
+
+//     return 0;
+// }
+
+//Prime number 
+
+// #include<iostream>
+// using namespace std;
+
+// int main ()
+// {
+//   int nn, m = 0, flag = 0;
+
+//   cout << "Enter the number to check prime ";
+//   cin >> nn;
+//   m = nn / 2;
+
+//   for (int i = 0; i <= m; i++)
+//     {
+//       if (nn % i == 0)
+// 	{
+// 	  cout << "Numer is not prime number " << endl;
+// 	  flag = 1;
+// 	  break;
+// 	}
+//     }
+
+//   if (flag == 0)
+//     {
+//       cout << "Number is prime." << endl;
+//     }
+
+
+
+// }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main()
+// {
+//     int num1 , num2;
+//     cin>>num1>>num2;
+    
+//     if(num1 > 10 && num2> 23 )
+//     {
+//         cout<<num1+num2;
+//     }
+//     else
+//     {
+//         cout<<"Chule m jav";
+//     }
+// }
+
+
+
+// palindrome
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n,r, sum=0,temp;
+    
+//     cout<<"Enter the number : ";
+//     cin>> n;
+//     temp = n;
+    
+//     while(n>0)
+//     {
+//         r = n%10;
+//         sum = (sum*10)+r;
+//         n = n/10;
+//     }
+    
+//     if(temp == sum)
+//     {
+//         cout<<"Number is palindrome ";
+//     }
+//     else
+//     {
+//         cout<<"Number is not palindrome ";
+//     }
+    
+// }
+
+//Factorial program
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int i , fact = 1, number;
+//     cout<<"Enter the number : ";
+//     cin>>number;
+//     for(i = 1; i<=number;i++)
+//     {
+//         fact = fact*i;
+//     }
+    
+//     cout<< "Factotial of " << number << "is:" << fact<<endl;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
